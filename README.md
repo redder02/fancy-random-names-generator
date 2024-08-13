@@ -15,10 +15,14 @@ npm install fancy-random-names
 ```
 ## Usage
 ```bash
-const { getRandomName, names } = require('fancy-random-names');
 
-// Generate a random fancy name
+const { getRandomName, getNRandomNames, names } = require('fancy-random-names');
+
+// Generate one random fancy name
 console.log(getRandomName()); # Outputs a random fancy name
+
+// Generate N random facncy names
+console.log(getNRandomNames(n)); # Outputs n random fancy names 0<=n<=700
 
 # Get the full list of names
 console.log(names); # Outputs the full array of 700+ names
