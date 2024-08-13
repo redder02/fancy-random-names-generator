@@ -76,7 +76,7 @@ function getRandomName() {
 function getNRandomNames(n){
     const randomIndex = Math.floor(Math.random() * names.length);
     let randomNames = [];
-    console.log(randomIndex);
+    // console.log(randomIndex);
     for(let i = 1;i <= n; ++i){
         randomNames.push(names[(randomIndex + i) % names.length]);
     }
@@ -87,5 +87,6 @@ function getNRandomNames(n){
 
 module.exports = {
     getRandomName,
+    getNRandomNames,
     names
 };
