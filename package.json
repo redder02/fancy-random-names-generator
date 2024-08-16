@@ -1,6 +1,6 @@
 {
   "name": "fancy-random-names",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Random fancy names generator",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,6 @@
     "type": "git",
     "url": "git+https://github.com/redder02/fancy-random-names-generator.git"
   },
-  "keywords": ["random", "names"],
-  "homepage": "https://github.com/redder02/fancy-random-names-generator-package#readme"
+  "keywords": ["random", "names", "cool", "GenZ"],
+  "homepage": "https://github.com/redder02/fancy-random-names#readme"
 }
